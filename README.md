@@ -1,7 +1,9 @@
 ##Getting and Cleaning Data Course Project
+-----------------
 Project for [Getting and Cleaning Data](https://www.coursera.org/learn/data-cleaning/) via Coursera.
 
 ###Project Specifications
+------------------
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 ####Instructions
 #####Review criteria 
@@ -35,10 +37,11 @@ You should create one R script called run_analysis.R that does the following.
 Good luck!
 
 ###Contents of Repository
+--------------------------
 *CodeBook.md: Information about the data set including processes taken to create the tidy data sets, and
 variable information.
 *README.md: this file.
 *UCI_HAR_Dataset: All original files containing the raw data. Available [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 *run_analysis.R: The R script used to perform all described processes to create the tidy data sets
-*data_mean_std.csv: Tidy data set containing all measurements of mean and standard deviation for each observation.
-*avg_by_sub_act.csv: Tidy data set of the average of each each mean and standard deviation measurement grouped by subject and activity (one "average of measurement"" per subject/activity group)
+*data_mean_std.txt: Tidy data set containing all measurements of mean and standard deviation for each observation.
+*avg_by_sub_act.txt: Tidy data set of the average of each each mean and standard deviation measurement grouped by subject and activity (one "average of measurement"" per subject/activity group)

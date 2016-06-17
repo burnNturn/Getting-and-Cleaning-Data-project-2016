@@ -1,5 +1,7 @@
 ##Code Book
+---------
 ###Raw Data
+---------
 The Raw data for these data sets were obtained from [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/index.html) under the data set [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/index.html)
 
 ####Collection
@@ -79,6 +81,7 @@ From original project:
 
 
 ###Data Transformation
+--------------------------
 The raw data was processed using the run_analysis.R script to create both tiday data sets (data_mean_std.csv and avg_by_sub_act.csv).
 
 ####Merge training and test raw data sets
@@ -130,7 +133,7 @@ With each of these having 3 seperate measurments for each the X, Y, or Z axis
 
 All names are augmented with Mean or Std(standard deviation) 
 
-###Data sets output to csv files
-Both data sets were outputed to csv files
-*data_mean_std.csv-tidy data set merged and cleaned up from original raw data set and extracted standard deviation and mean
-*avg_by_sub_act- tidy data set that averaged each mean and standard deviation measurement in relation to each subject and activity pair
+###Data sets output to txt files
+Both data sets were outputed to txt files
+*data_mean_std.txt-tidy data set merged and cleaned up from original raw data set and extracted standard deviation and mean
+*avg_by_sub_act.txt- tidy data set that averaged each mean and standard deviation measurement in relation to each subject and activity pair

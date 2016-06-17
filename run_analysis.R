@@ -74,5 +74,5 @@ avg_by_sub_act_df<-ddply(mean_std_df, c("subject", "activityname"), numcolwise(m
 
 # ouputs both data frames to seperate csv files
 
-write.csv(mean_std_df, "data_mean_std.csv", quote = FALSE, row.names = FALSE)
-write.csv(avg_by_sub_act_df, "avg_by_sub_act.csv",quote = FALSE, row.names = FALSE)
+write.table(mean_std_df, "data_mean_std.txt", row.names = FALSE)
+write.table(avg_by_sub_act_df, "avg_by_sub_act.txt", row.names = FALSE)
